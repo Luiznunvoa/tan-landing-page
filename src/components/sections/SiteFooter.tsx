@@ -72,7 +72,7 @@ export default function SiteFooter() {
 
         <Divider sx={{ my: 4, borderColor: 'rgba(255,255,255,0.15)' }} />
         <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.55)' }}>
-          © {new Date().getFullYear()} Plataforma TAN — Projeto acadêmico UFF / Fiocruz. Fotos:
+          © {new Date().getFullYear()} Plataforma TAN | Fotos:
           Unsplash (uso gratuito).
         </Typography>
       </Container>
