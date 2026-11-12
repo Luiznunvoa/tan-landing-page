@@ -1,3 +1,24 @@
+@@ # React + TypeScript + Vite
+ # React + TypeScript + Vite
++
+## Executar com Docker
+
+As configurações da imagem, porta publicada e política de reinício ficam no arquivo `.env`.
++
++Com Docker Compose:
++
++```sh
++docker compose up --build
++```
++
++Acesse http://localhost:8080. Para encerrar, use `docker compose down`.
++
++Também é possível construir e iniciar a imagem diretamente:
++
++```sh
++docker build -t fiocruz-landing .
++docker run --rm -p 8080:8080 fiocruz-landing
++```
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

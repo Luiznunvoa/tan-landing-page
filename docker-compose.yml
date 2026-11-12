@@ -1,0 +1,7 @@
+services:
+  landing:
+    image: ${IMAGE_NAME}
+    build: .
+    ports:
+      - "${APP_PORT}:8080"
+    restart: ${RESTART_POLICY}
